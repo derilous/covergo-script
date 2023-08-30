@@ -52,7 +52,7 @@ Clone this repository: git clone https://github.com/delrilous/covergo-script
 
 Install the required dependencies using yarn
 
-Execute the tests using the provided test runner command: yarn cypress open
+Execute the tests using the provided test runner command: `yarn test`
 
 Configure Cypress upon first start and select `run all tests` in the e2e window.
 
