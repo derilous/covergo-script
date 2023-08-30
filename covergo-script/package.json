@@ -1,0 +1,30 @@
+{
+  "name": "covergo-script",
+  "version": "1.0.0",
+  "description": "Cypress testing framework for CoverGo coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "covergo-script"
+  },
+  "keywords": [
+    "covergo"
+  ],
+  "author": "Mohsin",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "esbuild": "^0.19.2",
+    "yarn": "^1.22.19"
+  }
+}
