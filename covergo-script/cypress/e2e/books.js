@@ -5,6 +5,7 @@ const {
 } = require('@badeball/cypress-cucumber-preprocessor');
 
 Given('I navigate to the book store page', () => {
+  cy.visit('https://demoqa.com/profile');
   cy.get('[id=gotoStore]').click();
   cy.get('[id=searchBox-wrapper]').should('be.visible');
   cy.wait(3000);
